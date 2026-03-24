@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+    background: #d2e6ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   }
+   .container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+   }
+   h1 {
+    text-align: center;
+    color: rgb(46, 46, 46);
+   }
+   .search {
+    display: flex;
+    font-family: Montserrat;
+    color: rgb(46, 46, 46);
+    gap: 10px;
+    margin-bottom: 20px;
+   }
+   input {
+    font-family: Montserrat;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+   }
+   button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background: rgb(145, 224, 255);
+    color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 1px 1px rgb(255, 255, 255);
+   }
+   .card {
+    font-family: Montserrat;
+    font-size: 40px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+   }
+   .error {
+    color: crimson;
+    font-weight: bold;
+   }
